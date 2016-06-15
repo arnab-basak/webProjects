@@ -1,0 +1,96 @@
+<html>
+<!-- Head starts -->
+<head>
+<title>Search JSON</title>
+<script type="text/javascript" src="search.js"></script>
+<link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+  integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+  crossorigin="anonymous">
+
+</head>
+<!-- Head ends -->
+
+<!-- Body starts -->
+<body background="http://previews.123rf.com/images/elosa/elosa1301/elosa130100050/17368265-background-or-texture-in-a-light-blue-color-with-a-cotton-structure-Stock-Photo.jpg">
+<h2 align="center">Search Clients</h2>
+<hr/>
+<br/>
+  <div>
+    <!-- Search And Result -->
+    <div class="col-sm-4" style="  margin-top: -20px;">
+      <div id="search" style="margin-top: 20px; margin-left: 20px;">
+        <input class="form-control" style="display: inline" type="text"
+          oninput="searchName.apply(this)" placeholder="Search name">
+      </div>
+      <br/>
+
+      <div id="results" class="list-group">
+        <div id="resultList">
+          <!-- results populated here -->
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-8" style="position: fixed;  margin-left: 36%;">
+      <!-- Detailed user data -->
+      <img id="clientImage" alt="clientImage" 
+      height="150px"
+      width="150px"
+      src=""
+      style="vertical-align: top;">
+      
+      <table class="table" style="display: inline; width: 64%; margin-left: 15px; margin-top: -15px;">
+        <thead>
+          <tr>
+            <th ></th>
+            <th ></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <!-- <tr>
+            <td id="imgValue">
+            </td>
+          </tr> -->
+
+          <tr>
+            <td>Name</td>
+            <td id="nameValue"></td>
+          </tr>
+
+          <tr>
+            <td>Company</td>
+            <td id="companyValue"></td>
+          </tr>
+
+          <tr>
+            <td>Title</td>
+            <td id="titleValue"></td>
+          </tr>
+
+          <tr>
+            <td>Email</td>
+            <td id="emailValue"></td>
+          </tr>
+
+          <tr>
+            <td>Phone</td>
+            <td id="phoneValue"></td>
+          </tr>
+
+          <tr>
+            <td>Address</td>
+            <td id="addressValue"></td>
+          </tr>
+
+        </tbody>
+      </table>
+
+    </div>
+
+
+  </div>
+</body>
+<!-- Body ends -->
+</html>
