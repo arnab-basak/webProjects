@@ -1,5 +1,5 @@
 /**
- * Function to be called on DOM load
+ * Function to be called on DOM load.
  */
 document.addEventListener("DOMContentLoaded", function(event) { 
   searchName();
